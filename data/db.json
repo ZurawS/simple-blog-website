@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Welcome to my blog",
+      "body": "Dolor proident consectetur veniam magna Lorem enim laboris cupidatat dolor do commodo officia veniam occaecat. Et incididunt in pariatur commodo fugiat elit eiusmod proident duis proident magna laborum occaecat minim. Ex eu sint cillum proident ea Lorem nulla consequat incididunt tempor reprehenderit laborum sit. Enim nulla sint sunt nulla deserunt officia occaecat sunt velit qui in aliquip. Non nulla et mollit esse ad qui mollit id.",
+      "tags": ["webdev", "coding", "news"]
+    },
+    {
+      "id": 2,
+      "title": "Top 5 CSS tips",
+      "body": "Dolor proident consectetur veniam magna Lorem enim laboris cupidatat dolor do commodo officia veniam occaecat. Et incididunt in pariatur commodo fugiat elit eiusmod proident duis proident magna laborum occaecat minim. Ex eu sint cillum proident ea Lorem nulla consequat incididunt tempor reprehenderit laborum sit. Enim nulla sint sunt nulla deserunt officia occaecat sunt velit qui in aliquip. Non nulla et mollit esse ad qui mollit id.",
+      "tags": ["webdev", "coding", "css"]
+    }
+  ]
+}
