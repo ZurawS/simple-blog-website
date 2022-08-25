@@ -13,7 +13,6 @@ export default {
   name: "Posts",
   components: { SinglePost },
   props: ["posts"],
-  setup(props) {},
 };
 </script>
 

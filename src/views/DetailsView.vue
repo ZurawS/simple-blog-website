@@ -1,21 +1,29 @@
 <template>
   <div v-if="error">{{ error }}</div>
-  <div v-if="!post && !error">Loading...</div>
-
-  <div v-if="post">
+  <div v-if="post" class="post">
     <h3>{{ post.title }}</h3>
-    <span v-for="tag in post.tags" :key="tag"> #{{ tag }} </span>
-    <p>{{ post.body }}</p>
+    <div>
+      <span v-for="tag in post.tags" :key="tag"> #{{ tag }} </span>
+    </div>
+    <p class="pre">{{ post.body }}</p>
+  </div>
+  <div v-else>
+    <Spinner />
   </div>
 </template>
 
 <script>
+import { useRoute } from "vue-router";
+import Spinner from "../components/Spinner.vue";
 import getPost from "../composables/getPost";
 
 export default {
   props: ["id"],
+  components: { Spinner },
+
   setup(props) {
-    const { post, error, load } = getPost(props.id);
+    const route = useRoute();
+    const { post, error, load } = getPost(route.params.id);
     load();
 
     return { post, error };
@@ -23,4 +31,17 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.post {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.post p {
+  color: #444;
+  line-height: 1.5em;
+}
+.pre {
+  white-space: pre-wrap;
+}
+</style>
