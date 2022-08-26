@@ -13,13 +13,6 @@
       <PostList v-if="showPosts" :posts="posts" />
       <TagCloud :posts="posts" />
     </div>
-    <button
-      v-if="posts.length"
-      class="action-button delete"
-      @click="posts.pop()"
-    >
-      Hide latest post
-    </button>
     <div v-if="!posts.length && !error">
       <Spinner />
     </div>
@@ -63,11 +56,6 @@ export default {
   cursor: pointer;
   border: 1px solid transparent;
   border-radius: 10px;
-}
-.delete {
-  margin-top: 1.5rem;
-  background: rgba(194, 137, 14, 0.849);
-  justify-self: right;
 }
 .action-button:hover::after {
   content: "";

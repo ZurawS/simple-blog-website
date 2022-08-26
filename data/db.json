@@ -4,37 +4,24 @@
       "id": 1,
       "title": "Welcome to my blog",
       "body": "Dolor proident consectetur veniam magna Lorem enim laboris cupidatat dolor do commodo officia veniam occaecat. Et incididunt in pariatur commodo fugiat elit eiusmod proident duis proident magna laborum occaecat minim. Ex eu sint cillum proident ea Lorem nulla consequat incididunt tempor reprehenderit laborum sit. Enim nulla sint sunt nulla deserunt officia occaecat sunt velit qui in aliquip. Non nulla et mollit esse ad qui mollit id.",
-      "tags": [
-        "webdev",
-        "coding",
-        "news"
-      ]
+      "tags": ["webdev", "coding", "news"]
     },
     {
       "id": 2,
       "title": "Top 5 CSS tips",
       "body": "Et incididunt in pariatur commodo fugiat elit eiusmod proident duis proident magna laborum occaecat minim. Ex eu sint cillum proident ea Lorem nulla consequat incididunt tempor reprehenderit laborum sit. Enim nulla sint sunt nulla deserunt officia occaecat sunt velit qui in aliquip. Non nulla et mollit esse ad qui mollit id.",
-      "tags": [
-        "webdev",
-        "coding",
-        "css"
-      ]
+      "tags": ["webdev", "coding", "css"]
     },
     {
       "title": "This is a created post",
       "body": "This is an example Content",
-      "tags": [
-        "exampleTag",
-        "secondTag"
-      ],
+      "tags": ["exampleTag", "secondTag"],
       "id": 3
     },
     {
       "title": "New",
       "body": "Example",
-      "tags": [
-        "test"
-      ],
+      "tags": ["test"],
       "id": 4
     }
   ]
